@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "react-app"],
+  "globals": {
+    "document": true,
+    "window": true,
+    "browser": true
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-restricted-globals": "off"
+  }
+}
